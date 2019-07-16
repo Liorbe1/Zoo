@@ -1,19 +1,11 @@
 package animals;
 
-
-
 import java.util.Random;
-
-
 import food.EFoodType;
 import food.IEdible;
 import utilities.MessageUtility;
 
-/**
- * 
- * @author asaf binder 308240407 and lior benisty 204513386
- *
- */
+
 public class Lion extends AnimalThatRoars{
 	
 	private int scarCount;
