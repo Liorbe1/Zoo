@@ -1,7 +1,6 @@
 package animals;
 
 import utilities.MessageUtility;
-
 import food.IEdible;
 
 
