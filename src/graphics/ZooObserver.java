@@ -2,15 +2,8 @@ package graphics;
 
 import java.util.Observable;
 import java.util.Observer;
-/**
- * 
- * @author asaf binder 308240407 and lior benisty 204513386
- *
- */
-public class ZooObserver extends Thread implements Observer {
 
-	
-	
+public class ZooObserver extends Thread implements Observer {
 	/**
 	 * @param Observable
 	 * @param Object
@@ -27,7 +20,6 @@ public class ZooObserver extends Thread implements Observer {
 	public void run()
 	{
 		while(true){
-			
 			synchronized(this)
 			{
 				try {
@@ -37,13 +29,8 @@ public class ZooObserver extends Thread implements Observer {
 					e.printStackTrace();
 				}
 			}
-			
 				ZooPanel.getZooPanelInstance().animalMove();
-				
 				ZooPanel.getZooPanelInstance().eatAnimal();
-				
 		}
 	}
-	
-
 }
