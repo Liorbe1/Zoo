@@ -4,7 +4,6 @@ import java.awt.BorderLayout;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-
 import javax.swing.BorderFactory;
 import javax.swing.JButton;
 import javax.swing.JComboBox;
@@ -13,18 +12,9 @@ import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JSlider;
-
 import animals.Animal;
-/**
- * 
- * @author asaf binder 308240407 and lior benisty 204513386
- *
- */
+
 public class DuplicateDialog extends JDialog{
-	
-	/**
-	 * 
-	 */
 	private static final long serialVersionUID = 1L;
 	private JComboBox<Animal> AnimalsList;
 	private ZooPanel pan;
@@ -93,6 +83,5 @@ public class DuplicateDialog extends JDialog{
 	{
 		this.dispose();
 		pan.DuplicateAnimsl(AnimalsList.getSelectedIndex(), sliderVerSpeed.getValue(), sliderHorSpeed.getValue());
-		
 	}
 }
