@@ -4,18 +4,13 @@ import java.awt.Graphics;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
-
 import javax.imageio.ImageIO;
-
 import mobility.ILocatable;
 import mobility.Point;
 import graphics.IDrawable;
 import graphics.ZooFrame;
 import graphics.ZooPanel;
-/**
- * 
- * @author asaf binder 308240407 and lior benisty 204513386
- */
+
 public class Meat implements IEdible, ILocatable,IDrawable {
 	private static volatile Meat instance = null;
 	private Point location;
@@ -105,6 +100,4 @@ public class Meat implements IEdible, ILocatable,IDrawable {
 	public void setImageToNull(){
 		this.img=null;
 	}
-
-	
 }
