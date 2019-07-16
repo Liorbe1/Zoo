@@ -1,11 +1,5 @@
 package utilities;
 
-/**
- * A set of Logging functions to be used in appropriate classes
- * 
- * @author asaf binder 308240407 and lior benisty 204513386
- *
- */
 public class MessageUtility {
 
 	/**

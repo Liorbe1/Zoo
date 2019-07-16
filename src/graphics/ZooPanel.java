@@ -10,25 +10,17 @@ import java.awt.event.ActionListener;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
-
 import java.util.ArrayList;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ThreadPoolExecutor;
-
 import javax.imageio.ImageIO;
 import javax.swing.BoxLayout;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
-
-
-
-
-
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
-
 import diet.AbstractZooFactory;
 import diet.CarnivoreFactory;
 import diet.HerbivoreFactory;
@@ -39,11 +31,6 @@ import animals.ColoredAnimalDecorator;
 import plants.Cabbage;
 import plants.Lettuce;
 import plants.Plant;
-/**
- * 
- * @author asaf binder 308240407 and lior benisty 204513386
- *
- */
 
 public class ZooPanel extends JPanel implements ActionListener{
 	
@@ -131,11 +118,6 @@ public class ZooPanel extends JPanel implements ActionListener{
 		panel.add(menuPanel,BorderLayout.SOUTH);
 		panel.add(menuPanel2,BorderLayout.NORTH);
 		this.add(panel,BorderLayout.SOUTH);
-		
-		
-		
-		
-		
 		
 		Controller = new ZooObserver();
 		Controller.setPriority(Thread.MAX_PRIORITY);

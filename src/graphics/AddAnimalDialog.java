@@ -1,16 +1,9 @@
-
 package graphics;
 
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-
 import javax.swing.*;
-/**
- * 
- * @author asaf binder 308240407 and lior benisty 204513386
- *
- */
 
 public class AddAnimalDialog extends JDialog {
 	// define numbers to sliders
@@ -127,5 +120,4 @@ public class AddAnimalDialog extends JDialog {
 		panel.addAnimal(diet,comboType.getSelectedItem().toString(), sliderSize.getValue(), sliderHorSpeed.getValue(), sliderVerSpeed.getValue(), comboColor.getSelectedItem().toString());
 		thisObject.dispose();
 	}
-
 }

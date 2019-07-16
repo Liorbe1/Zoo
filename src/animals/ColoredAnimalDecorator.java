@@ -1,9 +1,5 @@
 package animals;
-/**
- * 
- * @author asaf binder 308240407 and lior benisty 204513386
- *
- */
+ 
 public class ColoredAnimalDecorator implements ColoredAnimal {
 	private ColoredAnimal animal;
 	

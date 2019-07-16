@@ -1,29 +1,20 @@
 package graphics;
 
 import java.awt.BorderLayout;
-
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.regex.Pattern;
-
 import javax.swing.BorderFactory;
 import javax.swing.ButtonGroup;
 import javax.swing.JButton;
 import javax.swing.JComboBox;
 import javax.swing.JDialog;
-
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JRadioButton;
-
-
 import animals.Animal;
-/**
- * 
- * @author asaf binder 308240407 and lior benisty 204513386
- *
- */
+
 public class DecorateDialog extends JDialog{
 	/**
 	 * 
@@ -91,14 +82,11 @@ public class DecorateDialog extends JDialog{
 					colorAnimal();
 					
 				}
-					
-			
 			}
 			});
 		
 		setModal(true);
-		this.setLocationRelativeTo(null);	
-		
+		this.setLocationRelativeTo(null);		
 	}
 
 	private void colorAnimal()
@@ -106,6 +94,4 @@ public class DecorateDialog extends JDialog{
 		this.dispose();
 		pan.colorAnimal(index-1, color);
 	}
-	
-
 }

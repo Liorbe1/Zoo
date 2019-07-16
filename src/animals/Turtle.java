@@ -1,17 +1,8 @@
 package animals;
 
-
-
-
-
 import food.IEdible;
 import utilities.MessageUtility;
 
-/**
- * 
- * @author asaf binder 308240407 and lior benisty 204513386
- *
- */
 public class Turtle extends AnimalsThatChews{
 	private int age;
 	/**

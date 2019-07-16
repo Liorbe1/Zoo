@@ -5,12 +5,7 @@ import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
 import java.util.Random;
-
-
-
-
 import javax.imageio.ImageIO;
-
 import food.EFoodType;
 import food.IEdible;
 import graphics.IDrawable;
@@ -20,10 +15,6 @@ import mobility.ILocatable;
 import mobility.Point;
 import utilities.MessageUtility;
 
-/**
- * @author asaf binder 308240407 and lior benisty 204513386
- *
- */
 public abstract class Plant implements IEdible, ILocatable,IDrawable {
 	/**
 	 * 
@@ -173,5 +164,4 @@ public abstract class Plant implements IEdible, ILocatable,IDrawable {
 		try {setImage(ImageIO.read(new File(IDrawable.PICTURE_PATH+nm ))); } 
 		  catch (IOException e) { System.out.println("Cannot load image"); }
 	}
-
 }

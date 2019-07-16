@@ -2,20 +2,13 @@ package mobility;
 
 import graphics.ZooFrame;
 
-/**
- * 
- * @author asaf binder 308240407 and lior benisty 204513386
- *
- */
 public class Point {
-	
 	
 	public final int highXLimit = 800;
 	public final int  highYLimit =600;
 	public final int  lowXLimit = 0;
 	public final int  lowYLimit = 0;
 
-	
 	private int x,y;
 	/**
 	 * 
@@ -99,10 +92,4 @@ public class Point {
 	public String toString(){
 		return x+","+y;
 	}
-	
-	
-	
-	
-	
-
 }

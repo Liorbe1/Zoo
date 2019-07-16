@@ -1,16 +1,10 @@
 package diet;
 
-
 import animals.Animal;
 import animals.Elephant;
 import animals.Giraffe;
 import animals.Turtle;
 
-/**
- * 
- * @author asaf binder 308240407 and lior benisty 204513386
- *
- */
 public class HerbivoreFactory implements AbstractZooFactory {
 
 	/**
@@ -26,9 +20,5 @@ public class HerbivoreFactory implements AbstractZooFactory {
 			return new Giraffe();
 		else
 			return new Turtle();
-
-		
-	
 	}
-
 }

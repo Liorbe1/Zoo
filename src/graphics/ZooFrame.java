@@ -10,15 +10,7 @@ import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
 import javax.swing.JOptionPane;
 
-/**
- * 
- * @author asaf binder 308240407 and lior benisty 204513386
- *
- */
-
-
 public class ZooFrame extends JFrame implements ActionListener {
-	
 	
 	private static final long serialVersionUID = 1L;
 	public final static int sizeW =800;
@@ -72,9 +64,6 @@ public class ZooFrame extends JFrame implements ActionListener {
 		add(panel);
 		pack();
 		this.setLocationRelativeTo(null);
-		
-		
-		
 	}
 	public static void main(String[] args) 
 	{
@@ -93,8 +82,6 @@ public class ZooFrame extends JFrame implements ActionListener {
 	 * this method listener to menu bar 
 	 */
 	public void actionPerformed(ActionEvent e) {
-		
-		
 		if (e.getSource() == iExit)
 			System.exit(0);
 		else if (e.getSource() == iHelp)
@@ -120,10 +107,5 @@ public class ZooFrame extends JFrame implements ActionListener {
 			panel.setBackground(Color.green);
 			repaint();
 		}
-		
-	
 	}
-
-	
-	
 }

@@ -1,12 +1,9 @@
 package diet;
+
 import animals.Animal;
 import food.EFoodType;
 import food.IEdible;
-/**
- * 
- * @author asaf binder 308240407 and lior benisty 204513386
- *
- */
+
 public class Herbivore implements IDiet{
 	/**
 	 * @return true if can eat EFoodType

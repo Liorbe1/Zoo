@@ -1,11 +1,5 @@
 package graphics;
 
-/**
- * 
- * @author Liorbe
- *
- */
-
 public interface IAnimalBehavior {
 	/**
 	 * 
@@ -31,6 +25,4 @@ public interface IAnimalBehavior {
 	  * @param state
 	  */
 	 public void setChanges (boolean state);
-
-
 }
