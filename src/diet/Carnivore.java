@@ -3,11 +3,7 @@ package diet;
 import food.EFoodType;
 import food.IEdible;
 import animals.Animal;
-/**
- * 
- * @author asaf binder 308240407 and lior benisty 204513386
- *
- */
+ 
 public class Carnivore implements IDiet {
 	
 	
