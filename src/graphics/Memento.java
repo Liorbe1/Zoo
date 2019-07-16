@@ -1,21 +1,13 @@
 package graphics;
 
 import java.util.ArrayList;
-
 import javax.swing.JOptionPane;
-
 import plants.Plant;
 import animals.Animal;
 import food.Meat;
 
-/**
- * 
- * @author asaf binder 308240407 and lior benisty 204513386
- *
- */
 public class Memento {
 
-	
 	private ArrayList<Animal> MementoAnimals;
 	private ArrayList<Animal> MementoQueue;
 	private Meat meat;
