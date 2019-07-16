@@ -24,11 +24,7 @@ import graphics.ZooObserver;
 import graphics.ZooPanel;
 import utilities.MessageUtility;
 
-/**
- * 
- * @author asaf binder 308240407 and lior benisty 204513386
- *
- */
+
 public abstract  class Animal  extends  Observable  implements IEdible,IDrawable,IAnimalBehavior,Runnable,ColoredAnimal,Cloneable{
 	
 	protected String name;
