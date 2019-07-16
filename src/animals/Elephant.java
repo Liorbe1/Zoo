@@ -4,11 +4,6 @@ import utilities.MessageUtility;
 
 import food.IEdible;
 
-/**
- * 
- * @author asaf binder 308240407 and lior benisty 204513386
- *
- */
 
 public class Elephant extends AnimalsThatChews {
 	private double trunkLength;
